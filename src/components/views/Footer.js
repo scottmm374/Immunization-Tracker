@@ -6,9 +6,9 @@ function Footer() {
     <Container className="footer">
       <Row>
         <Col lg="6">
-          <p>
+          {/* <p>
             Website created by: Michelle Scott - Eric Wood - Matthew Vaccaro
-          </p>
+          </p> */}
         </Col>
         <Col lg="6">
           <p>
