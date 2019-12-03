@@ -84,35 +84,10 @@ p {
   text-shadow: 2px 5px 8px #4c4848;
 }
 
-/* .App-link {
-  color: #09d3ac;
-} */
-
-/* .sc-bwzfXH {
-  max-width: 30%;
-  margin-left: 25%;
-  margin-bottom: 15%;
-
-  box-shadow: lightgrey;
-
-  box-shadow: 6px 14px 13px lightgray;
-
-  border: none;
-} */
-
 img {
   max-width: 100%;
   max-height: 100%;
 }
-/* nav {
-  /* box-shadow: 0px -2px 22px; */
-/* margin-bottom: 4.5rem; */
-/* } */
-
-/* .nav-link {
-  color: rgba(0, 0, 0, 0.5);
-  font-family: "Roboto Slab", serif;
-} */
 
 .children {
   display: flex;
@@ -120,39 +95,11 @@ img {
   justify-content: space-evenly;
 }
 
-/* .card-body p {
-  font-size: 1.5rem;
-  margin-bottom: 60px;
-} */
-
-/* .container {
-  max-width: 95%;
-} */
-/* .provider-link {
-  color: #32ddaa;
-}
-
-.patient-link {
-  color: #ff9d65;
-} */
-
 .form-cont {
   display: flex;
   justify-content: center;
   padding: 10px;
 }
-
-/* .col-lg-6 {
-  margin-top: 8%;
-} */
-/* .card-body {
-  background: linear-gradient(
-    180deg,
-    rgba(255, 157, 101, 1) 13%,
-    rgba(255, 195, 101, 1) 73%,
-    rgba(255, 238, 212, 1) 100%
-  );
-} */
 
 .id {
   font-size: 2rem;
@@ -163,7 +110,6 @@ img {
   color: #ff9d65;
 }
 .titles {
-  /* color: #32ddaa; */
   color: #777777;
   font-size: 1rem;
 }
