@@ -1,0 +1,197 @@
+.patient-Form {
+  border: none;
+  border-bottom: 1px solid #ff9d65;
+  margin-bottom: 17px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.med-Form {
+  border: none;
+  border-bottom: 1px solid #32ddaa;
+  margin-bottom: 17px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Ruda", sans-serif;
+  font-size: 48px;
+}
+
+p {
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+}
+.i {
+  color: #ff9d65;
+}
+.m {
+  color: #32ddaa;
+}
+.fa-check-square {
+  color: #32ddaa;
+  font-size: 30px;
+}
+
+.App {
+  text-align: center;
+}
+.container {
+  max-width: 100%;
+}
+
+.fa-syringe {
+  font-size: 50px;
+  color: white;
+}
+
+.footer {
+  margin-top: 5%;
+  padding: 30px 0;
+  background: #ff9d65;
+  color: white;
+  text-align: center;
+}
+
+.header {
+  background: #ff9d65;
+  color: white;
+  padding: 40px;
+}
+
+.fa-user-friends {
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 5px 8px #4c4848;
+}
+.fa-user-md {
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 5px 8px #4c4848;
+}
+
+.fa-mobile-alt {
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 5px 8px #4c4848;
+}
+
+/* .App-link {
+  color: #09d3ac;
+} */
+
+/* .sc-bwzfXH {
+  max-width: 30%;
+  margin-left: 25%;
+  margin-bottom: 15%;
+
+  box-shadow: lightgrey;
+
+  box-shadow: 6px 14px 13px lightgray;
+
+  border: none;
+} */
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+/* nav {
+  /* box-shadow: 0px -2px 22px; */
+/* margin-bottom: 4.5rem; */
+/* } */
+
+/* .nav-link {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Roboto Slab", serif;
+} */
+
+.children {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/* .card-body p {
+  font-size: 1.5rem;
+  margin-bottom: 60px;
+} */
+
+/* .container {
+  max-width: 95%;
+} */
+/* .provider-link {
+  color: #32ddaa;
+}
+
+.patient-link {
+  color: #ff9d65;
+} */
+
+.form-cont {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* .col-lg-6 {
+  margin-top: 8%;
+} */
+/* .card-body {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 157, 101, 1) 13%,
+    rgba(255, 195, 101, 1) 73%,
+    rgba(255, 238, 212, 1) 100%
+  );
+} */
+
+.id {
+  font-size: 2rem;
+  color: #32ddaa;
+}
+
+.patient {
+  color: #ff9d65;
+}
+.titles {
+  /* color: #32ddaa; */
+  color: #777777;
+  font-size: 1rem;
+}
+
+th {
+  border-bottom: 1px solid #ff9d65;
+  padding: 10px 50px;
+  text-align: left;
+  transition: 0.5s;
+  font-family: "Roboto Slab", serif;
+}
+
+thead {
+  font-size: 20px;
+  background: antiquewhite;
+}
+
+tr {
+  padding: 10px 15px;
+  font-family: "Roboto Slab", serif;
+}
+
+table {
+  justify-content: center;
+}
+
+.sc-bwzfXH {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
