@@ -71,9 +71,6 @@ function PatientLoginForm(props) {
     <div className="form-cont">
       <NForm onSubmit={handleSubmit}>
         <h3>Login</h3>
-        {/* <FlexWarp> */}
-        {/* <FormContainer> */}
-        {/* <NewLable>Email</NewLable> */}
         <NewInput
           className="patient-Form"
           type="text"
@@ -82,7 +79,6 @@ function PatientLoginForm(props) {
           placeholder="Email"
           onChange={handleChange}
         />
-        {/* <NewLable>Password</NewLable> */}
         <NewInput
           className="patient-Form"
           type="password"
@@ -92,9 +88,6 @@ function PatientLoginForm(props) {
           onChange={handleChange}
         />
         <Button type="submit">Login</Button>
-        {/* <h3>New Patient?</h3> <Link to="patient-register">Register</Link> */}
-        {/* </FormContainer> */}
-        {/* </FlexWarp> */}
       </NForm>
     </div>
   );
