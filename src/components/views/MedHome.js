@@ -1,4 +1,4 @@
-import React, { useSate, useEffect, useContext } from "react";
+import React, { useContext } from "react";
 import MedProPatientcardList from "../MedProPatientCardList.js";
 import { DrInfoContext } from "../../context/DrInfoContext";
 import { MedInfoContext } from "../../context/MedInfoContext";
@@ -16,7 +16,7 @@ const NewSpan = styled.span`
   padding-right: 40px;
 `;
 
-const MedHome = props => {
+const MedHome = () => {
   const addDR = useContext(MedInfoContext);
   const patientInfo = useContext(DrInfoContext);
 
