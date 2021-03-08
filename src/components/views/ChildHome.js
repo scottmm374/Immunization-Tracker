@@ -1,13 +1,9 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useState, useContext } from "react";
 import { PatientInfoContext } from "../../context/PatientInfoContext";
 import {
   LightCard,
-  BetterField,
-  NewLable,
-  FormContainerAddChild,
-  FlexWarp
+  
 } from "../utils/styledComponents.js";
-// import UpdateChildForm from "../forms/UpdateChildForm.js";
 import UpdateChildToggle from "../views/UpdateChildToggle";
 import PermissionForm from "../forms/PermissionForm";
 import { Card, CardTitle, CardBody, Col, Row } from "reactstrap";
@@ -20,7 +16,6 @@ const ChildHome = props => {
   const shots = props.location.state.shots;
   const [child, setChild] = useState(props.location.state.child);
 
-  //useEffect(() => {}, [child]);
 
   return (
     <>
@@ -56,7 +51,6 @@ const ChildHome = props => {
         <DeleteUser id={props.match.params.id} />
       </LightCard>
       <LightCard>
-        {/* <h2>Immunization History</h2> */}
         <HistoryCard shots={shots} />
       </LightCard>
       <PermissionForm />
